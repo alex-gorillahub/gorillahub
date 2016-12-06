@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<!-- META -->
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript"/>
+		<meta name="keywords" content=""/>
+		<meta name="description" content=""/>
+		<meta name="author" content=""/>
+		<meta name="copyright" content=""/>
+		<meta name="generator" content=""/>
+		<meta name="distribution" content=""/>
+		<meta name="date" content=""/>
+		<!-- SCRIPTS -->
+		<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+		<script src="js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+		<!-- STYLE -->
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<title>{pagetitle}</title>
+		<!-- LINK -->
+		<link rel="shortcut icon" type="image/png" href="img/ico/favicon.png"/>
+		<!-- PLUGINS -->
+		<script src="plugins/smooth-page-scroll-to-top/smooth_scroll.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="plugins/smooth-page-scroll-to-top/smooth_scroll.css"/>
+		<link rel="stylesheet" type="text/css" href="plugins/font-awesome-4.5.0/css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="plugins/animate/animate.min.css"/>
+		<link rel="stylesheet" type="text/css" href="plugins/hover/hover.css"/>
+		<script src="plugins/pace/pace.js" type="text/javascript"></script>
+		<script src="plugins/smooth-mouse-scrolling-scrollspeed/jQuery.scrollSpeed.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="plugins/prettyCheckable/dist/prettyCheckable.css">
+		<script src="plugins/prettyCheckable/dist/prettyCheckable.min.js"></script>
+		<script type="text/javascript" src="plugins/bootstrap-fileupload/bootstrap-fileupload.js"></script>
+		<link rel="stylesheet" type="text/css" href="plugins/bootstrap-fileupload/bootstrap-fileupload.css"/>
+		<script src="plugins/flexslider/jquery.flexslider-min.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="plugins/flexslider/flexslider.css"/>
+		<script src="plugins/dropzone/dropzone.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="plugins/dropzone/dropzone.css"/>
+		<!-- GOOGLE -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<body>
+		<!-- header -->
+		<div class="container-fluid" id="header">
+			<div class="container">
+				<div class="col-xs-4">
+					<img src="img/tpl/phone.png" class="img-responsive ico-phone" alt="..."/>
+					<h4 class="text-uppercase text-center hidden-xs">
+						Give us a call
+						<br/>
+						<span class="color-blue">+ 44 (0)1628 947627</span>
+					</h4>
+				</div>
+				<div class="col-xs-4">
+					<a href="index.html">
+						<img src="img/tpl/logo.png" class="logo img-responsive center-block" alt="logo"/>
+					</a>
+				</div>
+				<div class="col-xs-4">
+					<p class="text-center">
+						<a href="contact.html" class="btn btn-success btn-lg text-uppercase hvr-float-shadow hidden-xs"> Get in touch </a>
+						<a href="contact.html" class="btn btn-success text-uppercase hvr-float-shadow visible-xs"> Contact </a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- / header -->
+		<!-- hero -->
+		<div class="container-fluid" id="hero">
+			<div class="container">
+				<div class="col-sm-12">
+					<h1 class="text-uppercase text-center">
+						Remote web design services
+						<br/> 
+						<span class="color-blue">Made Easy</span>
+					</h1>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/tpl/banana.png" alt="...">
+						<div class="caption">
+							<p class="text-center">
+								<b>Free consultation</b> to plan your web project.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/tpl/banana.png" alt="...">
+						<div class="caption">
+							<p class="text-center">
+								Dedicated UK based <b>project management.</b>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/tpl/banana.png" alt="...">
+						<div class="caption">
+							<p class="text-center">
+								Professional team selected from <b>global resources.</b>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h2 class="text-center color-green">
+						<i>
+							“Professional UK client service... your timezone, your language.
+							<br/>
+							Access to remote resources... fully managed & cost-effective.”
+						</i>
+					</h2>
+				</div>
+				<div class="col-sm-12">
+					<p class="text-center">
+						<a href="#"> Discover more </a>
+					</p>
+					<br/>
+				</div>
+			</div>
+		</div>
+		<!-- / hero -->
+		<!-- work -->
+		<div class="container-fluid" id="work">
+			<div class="container">
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/tpl/img-work-2.png" alt="...">
+						<div class="caption">
+							<h4 class="text-uppercase text-center">Business intelligence</h4>
+							<p class="text-center">
+								You get a locally based Project Manager to advise, plan and run your project.
+							</p>
+							<p class="text-center">
+								They’ll manage the team, allocating the right experts at each stage and update you on the project status throughout.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/tpl/img-work-1.png" alt="...">
+						<div class="caption">
+							<h4 class="text-uppercase text-center">Scalable & Flexible</h4>
+							<p class="text-center">
+								Get access to experts from around the world and on your doorstep.
+							</p>
+							<p class="text-center">
+								Our global network of resources enables us to schedule the right level of skill to your project when you need it.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/tpl/img-work-3.png" alt="...">
+						<div class="caption">
+							<h4 class="text-uppercase text-center">Cost effective</h4>
+							<p class="text-center">
+								We provide the same high quality client service of a UK web design agency.
+							</p>
+							<p class="text-center">
+								But without their costly overheads we can operate more cost-effectively and pass on the savings to you.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- / work -->
+		<!-- who are you -->
+		<div class="container-fluid" id="who_are_you">
+			<div class="container">
+				<div class="col-sm-12">
+					<h1 class="text-uppercase text-center"> OK, so <span class="color-blue">who is</span> this for</h1>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/tpl/img-who_are_you-1.png" alt="...">
+						<div class="caption">
+							<h4 class="text-uppercase text-center">Entrepreneur</h4>
+							<p class="text-center">
+								You’ve got a big idea… and you’re itching to get going… but what’s the next step?
+							</p>
+							<p class="text-center">
+								Whether you need a website, an app or a prototype, help with marketing or designing your brand.
+							</p>
+							<p class="text-center">
+								Ask our expert advisers about planning a cost-effective digital strategy.
+							</p>
+						</div>
+						<p class="text-center">
+							<a href="contact.html" class="btn btn-success text-uppercase hvr-float-shadow" role="button">See how we can help</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/tpl/img-who_are_you-2.png" alt="...">
+						<div class="caption">
+							<h4 class="text-uppercase text-center">Marketing manager</h4>
+							<p class="text-center">
+								Don’t tell me… you’re not happy with your current agency. They cost too much and keep missing deadlines.
+							</p>
+							<p class="text-center">
+								We provide a flexible team with a range of skills and rates to deliver your digital strategy on time and budget - with dedicated UK project management, you can be as hands-on or off as you like.
+							</p>
+						</div>
+						<p class="text-center">
+							<a href="contact.html" class="btn btn-success text-uppercase hvr-float-shadow" role="button">Let’s talk business</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/tpl/img-who_are_you-3.png" alt="...">
+						<div class="caption">
+							<h4 class="text-uppercase text-center">Agency / consultant</h4>
+							<p class="text-center">
+								You provide the awseome creative... and let us deliver the digital solution for you. From microsites to marketing campaigns, emailers to ad-banners - we can provide you a white-labelled team that scales on demand to support you.
+							</p>
+							<p class="text-center">
+								Our online support tool enables you to quickly turn around quotes for your clients, and manage delivery easily.
+							</p>
+						</div>
+						<p class="text-center">
+							<a href="contact.html" class="btn btn-success text-uppercase hvr-float-shadow" role="button">Ask about digital support</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- / who are you -->
+		<!-- services -->
+		<div class="container-fluid" id="services">
+			<div class="container">
+				<div class="col-sm-12">
+					<h1 class="text-uppercase text-center"> Access the services you need
+					<br/>
+					to <span class="color-blue">launch & operate</span> your website </h1>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/tpl/img-services-ld-brand.png" alt="..."/>
+						<div class="caption">
+							<h4 class="text-uppercase text-center">Logo design & branding</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/tpl/img-services-deg.png" alt="..."/>
+						<div class="caption">
+							<h4 class="text-uppercase text-center">UX & visual Design</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/tpl/img-services-dev.png" alt="..."/>
+						<div class="caption">
+							<h4 class="text-uppercase text-center">
+								Website development
+								<br/> 
+								(mobile / responsive)
+							</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/tpl/img-services-ds-qa.png" alt="..."/>
+						<div class="caption">
+							<h4 class="text-uppercase text-center">
+								Development Support & 
+								<br/>
+								QA Testing
+							</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/tpl/img-services-e.png" alt="..."/>
+						<div class="caption">
+							<h4 class="text-uppercase text-center">
+								Email Campaign
+								<br/> 
+								management
+							</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/tpl/img-services-whs.png" alt="..."/>
+						<div class="caption">
+							<h4 class="text-uppercase text-center">
+								Website hosting 
+								<br/>
+								& Security
+							</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/tpl/img-services-cms-db.png" alt="..."/>
+						<div class="caption">
+							<h4 class="text-uppercase text-center">CMS & database set-up</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/tpl/img-services-seo-a.png" alt="..."/>
+						<div class="caption">
+							<h4 class="text-uppercase text-center">SEO & Advertising</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/tpl/img-services-ccm.png" alt="..."/>
+						<div class="caption">
+							<h4 class="text-uppercase text-center">
+								Content Creation 
+								<br/>
+								& Marketing
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- / services -->
+		<!-- ways -->
+		<div class="container-fluid" id="ways">
+			<div class="container">
+				<div class="col-sm-12">
+					<h1 class="text-uppercase text-center"> Some other ways to get
+					<br/>
+					<span class="color-blue">your website</span> built... </h1>
+				</div>
+				<div class="col-sm-offset-2 col-sm-8">
+					<div class="well">
+						I know a mate down the pub
+					</div>
+					<br/>
+					<div class="well">
+						I’ve seen these templates for 20 quid...
+					</div>
+					<br/>
+					<div class="well">
+						I’ll find a freelancer…. wait, what do I actually need?
+					</div>
+					<br/>
+					<div class="well">
+						I’ve got money to burn. Let’s find an agency!
+					</div>
+					<br/>
+					<div class="well">
+						I’ll go off-shore… but what about quality, reliability,
+						<br/>
+						language barrier, project management ….aaararragh!
+					</div>
+				</div>
+				<div class="col-md-12">
+					<h2 class="text-center"><i> Make it easy on yourself. Get started with GorillaHub today! </i></h2>
+				</div>
+			</div>
+		</div>
+		<!-- / ways -->
+		<!-- projects -->
+		<div class="container-fluid" id="projects">
+			<div class="container">
+				<div class="col-md-12">
+					<h1 class="text-uppercase text-center">Recent <span class="color-blue">Projects</span></h1>
+				</div>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-md-12">
+					<!-- carousel -->
+					<div class="flexslider" id="carousel">
+						<ul class="slides">
+							<li>
+								<div class="thumbnail">
+									<img src="img/tpl/img-project-1.jpg" alt="..."/>
+									<div class="overlay">
+										<p class="text-center">
+											<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal" role="button">
+												View project
+											</a>
+										</p>
+										<!-- <p class="text-center">
+											<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal" role="button">
+												<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+											</a>
+											<a href="#" class="btn btn-primary" target="_blank" role="button">
+												<span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+											</a>
+										</p> -->
+									</div>
+									<div class="caption">
+										<p class="text-center">Lorem ipsum dolor sit amet</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="thumbnail">
+									<img src="img/tpl/img-project-2.jpg" alt="..."/>
+									<div class="overlay">
+										<p class="text-center">
+											<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal" role="button">
+												View project
+											</a>
+										</p>
+									</div>
+									<div class="caption">
+										<p class="text-center">Lorem ipsum dolor sit amet</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="thumbnail">
+									<img src="img/tpl/img-project-3.jpg" alt="..."/>
+									<div class="overlay">
+										<p class="text-center">
+											<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal" role="button">
+												View project
+											</a>
+										</p>
+									</div>
+									<div class="caption">
+										<p class="text-center">Lorem ipsum dolor sit amet</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="thumbnail">
+									<img src="img/tpl/img-project-1.jpg" alt="..."/>
+									<div class="overlay">
+										<p class="text-center">
+											<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal" role="button">
+												View project
+											</a>
+										</p>
+									</div>
+									<div class="caption">
+										<p class="text-center">Lorem ipsum dolor sit amet</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="thumbnail">
+									<img src="img/tpl/img-project-2.jpg" alt="..."/>
+									<div class="overlay">
+										<p class="text-center">
+											<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal" role="button">
+												View project
+											</a>
+										</p>
+									</div>
+									<div class="caption">
+										<p class="text-center">Lorem ipsum dolor sit amet</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="thumbnail">
+									<img src="img/tpl/img-project-3.jpg" alt="..."/>
+									<div class="overlay">
+										<p class="text-center">
+											<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal" role="button">
+												View project
+											</a>
+										</p>
+									</div>
+									<div class="caption">
+										<p class="text-center">Lorem ipsum dolor sit amet</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="thumbnail">
+									<img src="img/tpl/img-project-1.jpg" alt="..."/>
+									<div class="overlay">
+										<p class="text-center">
+											<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal" role="button">
+												View project
+											</a>
+										</p>
+									</div>
+									<div class="caption">
+										<p class="text-center">Lorem ipsum dolor sit amet</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="thumbnail">
+									<img src="img/tpl/img-project-2.jpg" alt="..."/>
+									<div class="overlay">
+										<p class="text-center">
+											<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal" role="button">
+												View project
+											</a>
+										</p>
+									</div>
+									<div class="caption">
+										<p class="text-center">Lorem ipsum dolor sit amet</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="thumbnail">
+									<img src="img/tpl/img-project-3.jpg" alt="..."/>
+									<div class="overlay">
+										<p class="text-center">
+											<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal" role="button">
+												View project
+											</a>
+										</p>
+									</div>
+									<div class="caption">
+										<p class="text-center">Lorem ipsum dolor sit amet</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- carousel -->
+				<!-- modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								<h4 class="modal-title" id="myModalLabel">Lorem Ipsum is simply dummy text</h4>
+							</div>
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-sm-6">
+										<img src="img/tpl/placeholder-landscape.jpg" class="img-responsive" alt="..."/>
+									</div>
+									<div class="col-sm-6">
+										<p>
+											Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+										</p>
+										<p>
+											<a href="#" target="_blank">
+												Lorem Ipsum
+											</a> 
+										</p>
+										<h4 class="text-uppercase">Services provided</h4>
+										<ul class="list-unstyled">
+											<li>
+												Logo design & branding
+											</li>
+											<li>
+												UX & visual Design
+											</li>
+											<li>
+												HTML5/CSS3/JS
+											</li>
+											<li>
+												PHP/Wordpress
+											</li>
+											<li>
+												Database integration
+											</li>
+											<li>
+												Native iPhone application
+											</li>
+											<li>
+												Hosting, support & maintenance
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">
+									OK
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- / modal -->
+			</div>
+		</div>
+		<!-- / projects -->
+		<!-- footer -->
+		<div class="container-fluid" id="footer">
+			<div class="container">
+				<div class="col-sm-3 col-xs-12">
+					<p>
+						&copy; GorillaHub 2016
+					</p>
+				</div>
+				<div class="col-sm-3 col-xs-12">
+					<p>
+						<a href="#">Terms and Conditions</a>
+					</p>
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<p>
+						<a href="#">Privacy Policy</a>
+					</p>
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<ul class="list-inline pull-right">
+						<li>
+							<a href="#" title="Facebook"> <i class="fa fa-facebook fa-lg" aria-hidden="true"></i> </a>
+						</li>
+						<li>
+							<a href="#" title="Twitter"> <i class="fa fa-twitter fa-lg" aria-hidden="true"></i> </a>
+						</li>
+						<li>
+							<a href="#" title="LinkedIn"> <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i> </a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- / footer -->
+		<a href="#" class="scrollup">Scroll</a>
+		<!-- SCRIPTS -->
+		<script language="javascript" src="js/app.js"></script>
+		<script language="javascript">
+			$(document).ready(function() {
+
+			});
+		</script>
+		<script>
+			 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			 ga('create', 'UA-86428731-1', 'auto');
+			 ga('send', 'pageview');
+		</script>
+	</body>
+</html>
